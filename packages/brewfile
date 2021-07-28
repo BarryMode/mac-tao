@@ -230,8 +230,6 @@ cask "megasync"
 cask "obs"
 # Retro video game emulation
 cask "openemu"
-# Utility to take screenshots of webpages
-cask "paparazzi"
 cask "paragon-ntfs"
 # Tool to create native applications from command-line scripts
 cask "platypus"
