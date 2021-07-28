@@ -9,12 +9,22 @@ tap "homebrew/services"
 tap "imxieyi/waifu2x"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Core application library for C
 brew "glib"
+# Toolkit for image loading and pixel buffer manipulation
+brew "gdk-pixbuf"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
+# Icons for the GNOME project
+brew "adwaita-icon-theme"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.8"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
 # Text processing scripting language
@@ -35,8 +45,6 @@ brew "cmake"
 brew "cmatrix"
 # Dependency Manager for PHP
 brew "composer"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
 # Terminal visual disk space navigator
 brew "diskonaut"
 # Pack, ship and run any application as a lightweight container
@@ -75,16 +83,24 @@ brew "gh"
 brew "ghostscript"
 # Distributed revision control system
 brew "git"
+# Network related modules for glib
+brew "glib-networking"
 # GNU implementation of the famous stream editor
 brew "gnu-sed"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Toolkit for creating graphical user interfaces
+brew "gtk+3"
 # Gnumeric spreadsheet program
 brew "goffice"
 # GNU grep, egrep and fgrep
 brew "grep"
 # Command-line hex viewer
 brew "hexyl"
+# ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
 # GNOME XML library
@@ -99,18 +115,16 @@ brew "jq"
 brew "krb5"
 # Provides library functionality for FIDO U2F & FIDO 2.0, including USB
 brew "libfido2"
-# Postgres C API library
-brew "libpq"
 # Mac App Store command-line interface
 brew "mas"
 # Command-line client for Mega.co.nz
 brew "megatools"
-# Open source relational database management system
-brew "mysql"
 # Node version management
 brew "n"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Network Kanji code conversion Filter (NKF)
+brew "nkf"
 # Modern shell for the GitHub era
 brew "nushell"
 # OpenBSD freely-licensed SSH connectivity tools
@@ -177,6 +191,7 @@ cask "authy"
 cask "carbon-copy-cloner"
 # Server and cloud storage browser
 cask "cyberduck"
+# Scans for dylib hijacking
 cask "dhs"
 # Voice and text chat software
 cask "discord"
@@ -266,6 +281,7 @@ cask "webtorrent"
 cask "xmind-zen"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
+# Comic reader
 cask "yacreader"
 mas "Bitwarden", id: 1352778147
 mas "Crontab Creator", id: 1438725196
