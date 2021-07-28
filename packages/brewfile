@@ -219,6 +219,8 @@ cask "jdownloader"
 cask "keybase"
 # Tool to show what is persistently installed on the computer
 cask "knockknock"
+# WordPress local development tool by Flywheel
+cask "local"
 # Open-source firewall to block unknown outgoing connections
 cask "lulu"
 # Warns about malware, adware and spyware
