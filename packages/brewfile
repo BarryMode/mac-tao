@@ -187,6 +187,7 @@ cask "docker"
 cask "dolphin"
 # Find files, folders, or contents in any file
 cask "easyfind"
+cask "edex-ui"
 # Tool to write Fedora images to portable media files
 cask "fedora-media-writer"
 # Web browser
