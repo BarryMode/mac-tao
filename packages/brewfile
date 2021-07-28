@@ -251,6 +251,8 @@ cask "sublime-merge"
 cask "sublime-text"
 # Application for inspecting installer packages
 cask "suspicious-package"
+# Messaging app with a focus on speed and security
+cask "telegram"
 # Unpacks archive files
 cask "the-unarchiver"
 # Multimedia player
