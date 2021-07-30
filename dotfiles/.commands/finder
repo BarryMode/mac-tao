@@ -67,7 +67,7 @@ function finder() {
     # `finder unlock:r x` | Unlock file and subfiles
     "unlock:r") shift 1; chflags -R nouchg "$1" ;;
     # `finder zero x` | Replace file with a 0 byte file
-    "zero") shift 1; rm -rf "$1" && touch "$1" ;;
+    "zero") shift 1; rm -rf "$1" && touch "$1" && chflags hidden "$1" ;;
   esac
 }
 
