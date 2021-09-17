@@ -165,7 +165,7 @@ function update() {
       sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash
       echo
       echo 'Setting Preferences…'
-      ~//prime
+      ~//preferences
       ~//dock
       echo
       echo 'COMPLETE'
